@@ -1,0 +1,143 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:43:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/pavelkuzmin/PycharmProjects/SkyproHOMEWORK12.2_/blueprint_main/main.py", line 17, in FindingPosts
+    logger.info('Выполнен поиск')
+AttributeError: 'NoneType' object has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:43:13] "[35m[1mGET /search/?s=ggdf HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/pavelkuzmin/PycharmProjects/SkyproHOMEWORK12.2_/blueprint_main/main.py", line 17, in FindingPosts
+    logger.info('Выполнен поиск')
+AttributeError: 'NoneType' object has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:43:19] "[35m[1mGET /search/?s=ggdffsfdfdssfdf HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:45:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:45:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/pavelkuzmin/PycharmProjects/SkyproHOMEWORK12.2_/blueprint_main/main.py", line 17, in FindingPosts
+    logger.info('Выполнен поиск')
+AttributeError: 'NoneType' object has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:45:55] "[35m[1mGET /search/?s=fjdsf HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:51:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:51:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:51:05] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:51:58] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:51:59] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:52:45] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:53:52] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:53:53] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:53:55] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:54:34] "GET /search/?s=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:56:24] "GET /search/?s=паша HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:56:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:56:24] "[36mGET /uploads/images/Снимок%20экрана%202022-10-21%20в%2009.42.29.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:56:24] "[36mGET /uploads/images/image%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:56:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:56:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:57:49] "GET /search/?s=сер HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:57:53] "GET /search/?s=ко HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:57:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Выполнен поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:59:48] "GET /search/?s=ко HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 16:59:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Неправильный формат файла
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:30:10] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:01] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:05] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Неправильный формат файла
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:18] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:19] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:25] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:25] "GET /uploads/images/Снимок%20экрана%202022-10-21%20в%2009.42.29.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:29] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Неправильный формат файла
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:37] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:39] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:44] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:44] "GET /uploads/images/Conditionals.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполнен поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:47] "GET /search/?s=паша HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:47] "[33mGET /uploads/images/image%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:47] "[36mGET /uploads/images/Снимок%20экрана%202022-10-21%20в%2009.42.29.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:47] "[36mGET /uploads/images/Conditionals.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:31:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
